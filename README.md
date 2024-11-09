@@ -2,6 +2,15 @@
 
 This repository demonstrates how to use **Testcontainers** in **Spring Boot** for integration testing. Testcontainers provide lightweight, disposable containers that can run databases or other services, enabling reliable and isolated tests in Spring Boot applications.
 
+## Prerequisites
+
+To run this project, ensure you have the following:
+
+1. [**Java**](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html): JDK 11 or higher
+2. [**Spring Boot**](https://spring.io/projects/spring-boot): Version 2.5 or higher
+3. [**Docker**](https://www.docker.com/get-started): Installed and running on your machine
+4. [**Maven**](https://maven.apache.org/download.cgi): For building and running tests
+
 ## What is Spring Boot Testcontainers?
 
 **Spring Boot Testcontainers** is a library that allows developers to run Docker containers during integration tests. This is especially useful for tests that require external services like databases, message brokers, or even web servers, as it lets each test run in an isolated, reproducible environment. By leveraging Docker containers, Testcontainers ensures that every integration test has a consistent environment, making it easier to test against actual dependencies in a realistic way without relying on a local setup or a shared testing infrastructure.
@@ -20,14 +29,6 @@ In traditional integration testing, setting up databases or other dependencies c
 - **Messaging Services**: Testing services that depend on message brokers like Kafka or RabbitMQ in a realistic, containerized environment.
 - **Microservices**: Spinning up multiple containers to test how services interact in an isolated environment.
 
-## Prerequisites
-
-To run this project, ensure you have the following:
-
-1. [**Java**](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html): JDK 11 or higher
-2. [**Spring Boot**](https://spring.io/projects/spring-boot): Version 2.5 or higher
-3. [**Docker**](https://www.docker.com/get-started): Installed and running on your machine
-4. [**Maven**](https://maven.apache.org/download.cgi): For building and running tests
 
 ## Getting Started
 
