@@ -39,3 +39,20 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/yourrepository.git
 cd yourrepository
+```
+## Install dependencies
+
+```bash
+mvn clean install
+```
+## Run tests
+### To run All tests:
+
+```bash
+mvn test
+```
+### To run specific test:
+
+```bash
+mvn test -Dtest=YourTestClass#methodName
+```
